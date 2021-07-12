@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load socialaccount %}
+{% block title %} MusicApp - Home {% endblock title %}
+
+<head>
+    <title>My Music</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+{% block body %}
+
+</style>
+<br>
+
+<div class="container p-3 my-3 text-white" style="background-color: #7d3b3b;">
+    <a href="{% url 'playlist' %}" style="color: white;">
+        <h1 style="color: white;">Playlist</h1>
+    </a>
+    <a href="{% url 'playlist' %}" style="color: white;">
+        <p style="color: white;">Browse through your created playlist here.</p>
+    </a>
+</div>
+<div class="container p-3 my-3 text-white" style="background-color: #7d3b3b;">
+    <a href="{% url 'favourite' %}" style="color: white;">
+        <h1 style="color: white;">Favourites</h1>
+    </a>
+    <a href="{% url 'favourite' %}" style="color: white;">
+        <p style="color: white;">Browse through your favourite songs here.</p>
+    </a>
+</div>
+<div class="container p-3 my-3 text-white" style="background-color: #7d3b3b;">
+    <a href="{% url 'upload' %}" style="color: white;">
+        <h1 style="color: white;">Uploaded Songs</h1>
+    </a>
+    <a href="{% url 'upload' %}" style="color: white;">
+        <p style="color: white;">Browse through your uploaded songs here.</p>
+    </a>
+</div>
+
+
+{% endblock body %}
