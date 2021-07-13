@@ -46,9 +46,6 @@
 5. Bootstrap
 6. Google APIs for SignUp and Login
 
-## System Design :
-<p align="center"><img src="System-Design.png" width="600" height="500" /></p>
-
 ----
 
 ## Demo:
