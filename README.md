@@ -1,5 +1,5 @@
 <h1 align="center">🎶 GeetSuno 🎶</h1>
-<h3 align="center">A Music Streaming platform.</h3>
+<h3 align="center">A Django Based Music Streaming Platform.</h3>
 
 ### 👉🏽 Website Preview:
 #### Home Page
