@@ -144,6 +144,18 @@
                 <a href="{% url 'index' %}" class="btn btn-outline-light mt-2 mx-1">HOME</a>
                 <a href="{% url 'all_songs' %}" class="btn btn-outline-light mt-2 mx-1">ALL SONGS</a>
                 {% if request.user.is_active %}
+
+                <div class="btn-group mt-2 mx-1">
+                    <a type="button" href="{% url '#' %}" class="btn btn-outline-light">Languages</a>
+                    <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{% url 'hindi_songs' %}">Hindi</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="{% url 'english_songs' %}">English</a>
+                        <div class="dropdown-divider"></div>
+                </div>
                 
                 <div class="btn-group mt-2 mx-1">
                     <a type="button" href="{% url 'mymusic' %}" class="btn btn-outline-light">MY MUSIC</a>
