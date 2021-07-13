@@ -8,6 +8,7 @@
     margin: 20px 0 10px;
     text-align: center;
     border-top: 1px solid #ccc;
+    color: black;
 }
 .or-seperator i {
     padding: 0 10px;
@@ -24,7 +25,7 @@
     <br>
     <h1 class="text-center">Sign Up</h1>
     <br> 
-    <a href="{% provider_login_url 'google' process='login' %}" class="btn btn-outline-dark btn-block">
+    <a href="{% provider_login_url 'google' process='login' %}" class="btn btn-outline-dark btn-block" style="color: white;">
       <img width="20px" style="margin-bottom:3px; margin-right:5px" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
       Sign up with Google
     </a>
@@ -35,7 +36,7 @@
       <button class="btn btn-success btn-block" type="submit">Sign Up</button>
     </form>
     <br>
-    <p>Already have an account? Please <a href="{% url 'login' %}">log in</a>.</p>
+    <p>Already have an account? Please <a href="{% url 'login' %}" style="color: skyblue;">log in</a>.</p>
   </main>
   
 {% endblock body %}

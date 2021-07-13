@@ -330,13 +330,13 @@ def upload(request):
             q = UploadSong(user=request.user, name=name, album=album, language=language, song_img=song_img, year=year,singer=singer, song_file=song_file)
             q.save()
             messages.success(request, "Song has uploaded!")
-        elif 'rm-fav' in request.POST:
+        else:
             song_id = list(request.POST.keys())[1]
-            favourite_song = Favourite.objects.filter(user=request.user, song__id=song_id)
-            favourite_song.delete()
-            messages.success(request, "Removed from Uploaded!")
+            playlist_song = UploadSong.objects.filter(user=request.user, id=song_id)
+            playlist_song.delete()
+            messages.success(request, "Song removed from Uploaded!")
 
 
-    songs = Song.objects.filter(favourite__user=request.user).distinct()
+    songs = UploadSong.objects.filter(user=request.user).distinct()
     context = {'songs': songs}
     return render(request, 'musicapp/upload.html', context=context)
