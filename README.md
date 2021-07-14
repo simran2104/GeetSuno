@@ -49,7 +49,7 @@
 ----
 
 ## Demo:
-Have a look on the website being deployed 
+Have a look on the website being deployed at Heroku.
 
 ----
 
