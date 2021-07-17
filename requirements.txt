@@ -125,7 +125,7 @@ py==1.10.0
 PyAudio @ file:///C:/Users/DELL/pipwin/PyAudio-0.2.11-cp37-cp37m-win_amd64.whl
 PyAutoGUI==0.9.52
 pycparser==2.20
-pydantic==1.6.1
+pydantic==1.6.2
 pydot==1.4.1
 pygame==1.9.6
 PyGetWindow==0.0.9
