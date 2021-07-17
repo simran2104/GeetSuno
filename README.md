@@ -48,11 +48,6 @@
 
 ----
 
-## Demo:
-Have a look on the website being deployed at Heroku.
-
-----
-
 ## Installation 📦
 
 >pip install -r requirements.txt
