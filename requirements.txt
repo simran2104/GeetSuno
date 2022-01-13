@@ -111,7 +111,7 @@ parso==0.8.2
 pathspec==0.8.1
 pickleshare==0.7.5
 Pillow==9.0.0
-pipenv==2021.5.29
+pipenv==2022.1.8
 pipwin==0.5.1
 pluggy==0.13.1
 pre-commit==2.13.0
