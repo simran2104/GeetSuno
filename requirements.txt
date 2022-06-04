@@ -136,7 +136,7 @@ PyJWT==1.7.1
 PyMsgBox==1.0.9
 PyMySQL==0.9.3
 pyparsing==2.4.7
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 pyperclip==1.8.2
 pypiwin32==223
 PyPrind==2.11.3
