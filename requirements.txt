@@ -129,7 +129,7 @@ pydantic==1.6.2
 pydot==1.4.1
 pygame==1.9.6
 PyGetWindow==0.0.9
-Pygments==2.9.0
+Pygments==2.20.0
 pyjokes==0.6.0
 pyjsparser==2.7.1
 PyJWT==2.4.0
